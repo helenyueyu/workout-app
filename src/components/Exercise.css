@@ -1,0 +1,17 @@
+.btn:hover {
+  background-color: black;
+}
+.difficulty {
+  color: black;
+  font-family: 'Staatliches', cursive;
+}
+.difficulty-level {
+  font-family: 'Staatliches', cursive;
+}
+.custom {
+  padding-bottom: 0;
+}
+
+.submit {
+  margin-top: 3rem;
+}

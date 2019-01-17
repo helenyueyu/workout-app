@@ -1,0 +1,21 @@
+.prevworkout {
+  font-family: 'Staatliches', cursive;
+  font-size: 2rem;
+  color: black;
+  margin: 0;
+  background-color: teal;
+  padding: 0.75rem;
+  border-radius: 10px;
+  /* visibility: hidden;  */
+}
+.prevtime {
+  float: right;
+  color: white;
+  background-color: black;
+  text-align: right;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  border-radius: 15px;
+  width: 100px;
+}

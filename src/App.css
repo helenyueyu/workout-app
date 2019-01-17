@@ -1,32 +1,49 @@
-.App {
+.card-panel {
+  height: 110vh;
+}
+.container {
+  background-color: teal;
+}
+.title {
   text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+.submitbutton {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+.startbutton:hover {
+  background-color: black !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.submit:hover {
+  background-color: teal !important;
+}
+.prevtitle {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+.previous-workout {
+  padding-bottom: 3rem;
+}
+.breaker {
+  padding-bottom: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.timer {
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Thasadith', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.exercise {
+  text-align: center;
+  font-family: 'Thasadith', sans-serif;
+  color: teal;
+  font-size: 2rem;
+  padding-bottom: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit:hover {
+  background-color: red;
 }
